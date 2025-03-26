@@ -1,0 +1,43 @@
+.contact-section {
+    position: relative;
+    padding: 100px 20px 40px;
+    background-image: url('../images/AI photos/contact-bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.contact-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.6); 
+    border-radius: 15px;
+}
+
+.contact-section h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}

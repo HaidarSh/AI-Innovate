@@ -1,0 +1,122 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .skip-link {
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    z-index: 1000;
+  }
+  
+  .skip-link:focus {
+    top: 10px;
+    left: 10px;
+  }
+  
+  .signup-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: linear-gradient(135deg, #4f6d7a, #35424a);
+    padding: 20px;
+  }
+  
+  .auth-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    height: 100%;
+  }
+  
+  .auth-header h1 {
+    font-size: 2rem;
+    color: #35424a;
+    text-align: center;
+  }
+  
+  .auth-header p {
+    font-size: 1rem;
+    color: #777;
+    text-align: center;
+  }
+  
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.875rem;
+  }
+  
+  .auth-button {
+    background-color: #4f6d7a;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.125rem;
+    cursor: pointer;
+  }
+  
+  .auth-button:hover {
+    background-color: #35424a;
+  }
+  
+  .auth-footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .auth-footer p {
+    font-size: 1rem;
+  }
+  
+  .auth-footer .sign-in-link {
+    color: #4f6d7a;
+    text-decoration: none;
+  }
+  
+  .auth-footer .sign-in-link:hover {
+    text-decoration: underline;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  

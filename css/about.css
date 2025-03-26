@@ -1,0 +1,38 @@
+.sectionAboutUs {
+    position: relative;
+    padding: 50px 0;
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.sectionAboutUs-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;
+}
+
+.sectionAboutUs h1, .sectionAboutUs h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.sectionAboutUs p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.sectionAboutUs ul {
+    list-style-type: disc;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.sectionAboutUs ul li {
+    font-size: 1.2rem;
+}

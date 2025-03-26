@@ -1,0 +1,56 @@
+.sectionMachineLearning {
+    padding: 60px 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sectionMachineLearning > div {
+    flex: 1; 
+    min-width: 250px; 
+}
+
+.sectionMachineLearning h1, .sectionMachineLearning h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.sectionMachineLearning p {
+    font-family: 'Arial', sans-serif;
+    color: #555;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.sectionMachineLearning ul {
+    list-style-type: disc;
+    margin-top: 20px;
+    padding-left: 40px;
+    color: #555;
+}
+
+.sectionMachineLearning ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.text-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-container-machineLearning{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}

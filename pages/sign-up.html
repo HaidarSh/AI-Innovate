@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up - AI Innovate</title>
+    <meta name="description" content="Create a new account for AI Innovate" />
+    <link rel="stylesheet" href="../css/sign-up.css" />
+    <script src="../scripts/authentication.js" defer></script>
+  </head>
+  <body>
+    <a href="../index.html" class="skip-link">Skip to main content</a>
+
+    <main>
+      <section class="signup-section" aria-labelledby="signup-title">
+        <div class="auth-container">
+          <div class="auth-header">
+            <h1 id="signup-title" >
+              Create Your Account on AI Innovate
+            </h1>
+            <p>Start exploring the future of Artificial Intelligence</p>
+          </div>
+
+          <form id="signup-form" novalidate aria-describedby="form-error">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                autocomplete="name"
+                aria-required="true"
+                aria-describedby="name-error"
+              />
+              <div class="error-message" id="name-error" role="alert"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                autocomplete="email"
+                aria-required="true"
+                aria-describedby="email-error"
+              />
+              <div class="error-message" id="email-error" role="alert"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                required
+                autocomplete="new-password"
+                aria-required="true"
+                minlength="6"
+                aria-describedby="password-error"
+              />
+              <div class="error-message" id="password-error" role="alert"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="confirm-password">Confirm Password</label>
+              <input
+                type="password"
+                id="confirm-password"
+                name="confirm-password"
+                required
+                autocomplete="new-password"
+                aria-required="true"
+                minlength="6"
+                aria-describedby="confirm-password-error"
+              />
+              <div class="error-message" id="confirm-password-error" role="alert"></div>
+            </div>
+
+            <div class="error-message" id="form-error" role="alert"></div>
+            <div style="display: flex; justify-content: center; align-items: center; padding: 10px;">
+              <button type="submit" class="auth-button">Sign Up</button>
+            </div>
+          </form>
+
+          <div class="auth-footer">
+            <p>
+              Already have an account?
+              <a href="./sign-in.html" class="sign-in-link">Sign In</a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
